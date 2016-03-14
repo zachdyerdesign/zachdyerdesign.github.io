@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zach Dyer Design</title>
+    <description>Zach Dyer Design LLC is a full service web design company located in Ozark, Missouri in the Carl Hefner Business Enterprise. We provide web design, branding design, web programming, domain and hosting services.</description>
+    <link>http://zachdyerdesign.com/</link>
+    <atom:link href="http://zachdyerdesign.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 14 Mar 2016 01:49:47 -0500</pubDate>
+    <lastBuildDate>Mon, 14 Mar 2016 01:49:47 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Problems with WordPress!</title>
+        <description>&lt;p&gt;For the past couple of months I’ve been having a lot of serious problems with WordPress. To the point of having to completely wipe them out and start over. Malware can be planted on a site without any knowledge of it even happening.&lt;/p&gt;
+
+&lt;p&gt;So we are switching to a safer solution for websites and we will now be using Jekyll. Jekyll is website software that can be used for blogging. It is a simple software and doesn’t have a lot of moving parts. For example there is no database. And with no database it’s not very hackable.&lt;/p&gt;
+
+&lt;p&gt;Hackers use MySQL injections to infect sites. MySQL injections are database queries that the hacker can use to gain access to your site.&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 13 Mar 2016 23:37:20 -0500</pubDate>
+        <link>http://zachdyerdesign.com/company/update/2016/03/13/wordpress-problems.html</link>
+        <guid isPermaLink="true">http://zachdyerdesign.com/company/update/2016/03/13/wordpress-problems.html</guid>
+        
+        
+        <category>company</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
