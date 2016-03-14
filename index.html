@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Zach Dyer Design LLC | Web Design and Programming | Springfield MO</title>
+
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+		<script type="text/javascript" language="javascript" src="zdd/zdd.core.js"></script>
+		<script> zdd.core.import(["icon", "menu", "include", "logo"]) </script>
+		<script> zdd.core.theme() </script>
+
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<h1><script> zdd.mods.logo.emblem(); </script> <script> zdd.core.get("title"); </script></h1>
+
+			<nav class="navbar">
+				<script> zdd.mods.menu.get("main-menu", "navbar-nav nav"); </script>
+			</nav>
+
+		</div>
+
+		<div class="js-header">
+			<div class="container">
+
+				<h2>Overview</h2>
+				<p>Zach Dyer Design LLC is a full service web design company located in Ozark, Missouri in the Carl Hefner Business Enterprise. We provide web design, branding design, web programming, domain and hosting services.</p>
+
+			</div>
+		</div>
+
+		<div class="container">
+
+			<div class="col-md-6">
+
+				<h3>Instructions</h3>
+				<ol>
+					<li>Download the files from <a href="https://github.com/zachdyerdesign/zdd" target="_blank">https://github.com/zachdyerdesign/zdd</a></li>
+					<li>Go to <code>modules</code> to update module data and create new modules.</li>
+					<li>Use the zdd functions inside of <code>script</code> tags anywhere in your html to add dynamic menus and more.</li>
+				</ol>
+
+			</div>
+
+			<div class="col-md-6">
+
+				<h3>Templating Functions</h3>
+				<ol>
+					<li><code>zdd.mods.menu.get(name)</code> - Use this to get use your dynamic menu stored in <code>zdd.data.menus</code></li>
+					<li><code>zdd.mods.include(include)</code> - Use this to display your footer information stored in <code>zdd.data.footer</code></li>
+					<li><code>zdd.mods.icon.get(icon, size)</code> - Use this to display an icon from font awesome. Find more icons at <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">http://fortawesome.github.io/Font-Awesome/icons/</a></li>
+				</ol>
+			</div>
+
+			</div>
+
+			<footer class="container">
+				<nav class="navbar">
+					<script> zdd.mods.menu.get("footer-menu") </script>
+				</nav>
+				<script> zdd.mods.include.get("footer") </script>
+			</footer>
+
+	</body>
+
+</html>
