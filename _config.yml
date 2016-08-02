@@ -1,63 +1,12 @@
 # Site settings
 title: Zach Dyer Design
 email: zach.dyer@zachdyerdesign.com
-url: https://zachdyerdesign.github.io
-description: Zach Dyer Design is a web design company providing graphic, web, and interface design in Ozark, Missouri where we help small businesses get online and exposed to their potential and current customers.
-skills: "Web Development - Graphic Design - User Experience Design"
-meta_author: Dyer Zach
-phone: +1 417 501 5670
-
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Footer settings
-footer:
-  copyright: Zach Dyer Design
-  location: Ozark, Missouri
-  social: Around the Web
-  credits: Who Are We
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: linkedin
-    url: https://www.linkedin.com/in/zach-dyer-83389821?trk=nav_responsive_tab_profile
-  - title: facebook
-    url: https://www.facebook.com/Zach-Dyer-Design-175044499220188/?fref=ts
-  - title: stack-overflow
-    url: http://stackoverflow.com/users/756053/zachdyer
-  - title: github
-    url: https://github.com/zachdyerdesign
-  - title: google
-    url: https://plus.google.com/+ZachDyerDesignOzark
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 2375 N 14th St.
-  - line: Ozark, MO 65721
-
-# Credits content
-credits: 'Zach Dyer Design is a web design company providing graphic, web, and interface design in Ozark, Missouri where we help small businesses get online and exposed to their potential and current customers.'
-
-# Build settings
-markdown: kramdown
-permalink: pretty
+description: Zach Dyer Design LLC is a full service web design company located in Ozark, Missouri in the Carl Hefner Business Enterprise. We provide web design, branding design, web programming, domain and hosting services.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://zachdyerdesign.com" # the base hostname & protocol for your site
+twitter_username: zachdyer
+github_username:  zachdyerdesign
+linkedin_profile: zach-dyer-83389821
+facebook: Zach-Dyer-Design-175044499220188
+telephone: +1 417 501 5670
+address: 1471 W South St, Ozark, MO 65721
