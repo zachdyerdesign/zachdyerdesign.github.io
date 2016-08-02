@@ -13,7 +13,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://zachdyerdesign.com" # the base hostname & protocol for your site
 twitter_username: zachdyer
 github_username:  zachdyerdesign
-telephone: 417.501.5670
+linkedin_profile: zach-dyer-83389821
+facebook: Zach-Dyer-Design-175044499220188
+telephone: +1 417 501 5670
 address: 1471 W South St, Ozark, MO 65721
 
 # Build settings
