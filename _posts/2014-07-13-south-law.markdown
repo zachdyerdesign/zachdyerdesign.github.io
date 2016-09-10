@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 6
+date: 2014-07-15
+img: southlaw.jpg
+alt: South Law Website
+project-date: April 2014
+client: South Law
+category: Web Development
+website: http://southlaw.com
+description: A large law firm in Kansas City with over 90 attorneys on staff hired Zach Dyer Design to build a website for their company brand.
+
+---
