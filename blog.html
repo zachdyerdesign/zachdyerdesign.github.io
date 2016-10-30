@@ -1,0 +1,27 @@
+---
+layout: default
+title: Blog
+permalink: blog
+---
+
+<div class="container page">
+    <div class="row">
+        <div class="col-md-9">
+
+          {% for post in site.posts %}
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">{{ post.title }}</h2>
+            <h6><span class="glyphicon glyphicon-time"></span> Posted by {{ post.author }} on {{ post.date | date: "%B, %e, %Y"}}</h6>
+            <p class="lead">{{ post.excerpt }}</p>
+            <a href="{{ post.url }}" class="btn btn-default">Read more</a>
+            <div class="clearfix"></div>
+          {% endfor %}
+
+        </div>
+        <div class="col-md-3">
+            <!-- blog sidebar -->
+        </div>
+    </div>
+
+</div>

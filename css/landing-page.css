@@ -10,7 +10,6 @@ html {
     height: 100%;
 }
 
-body,
 h1,
 h2,
 h3,
@@ -22,7 +21,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
@@ -59,6 +58,14 @@ h6 {
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.page {
+  margin: 90px auto;
+}
+
+.blog-banner {
+  max-width: 100%;
 }
 
 @media(max-width:767px) {

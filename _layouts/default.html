@@ -3,13 +3,13 @@
 
 {% include head.html %}
 
-<body>
+<body class="{% if page.url != "/" %}page{% endif %}">
 
     <!-- Navigation -->
     {% include nav.html %}
 
     <!-- Header -->
-    {% include header.html %}
+    {% if page.url == "/" %}{% include header.html %}{% endif %}
 
     <!-- Page Content -->
     {{ content }}
@@ -17,10 +17,10 @@
     {% include footer.html %}
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
 
 </body>
 
