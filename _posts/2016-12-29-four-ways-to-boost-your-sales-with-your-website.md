@@ -1,12 +1,12 @@
 ---
 title: Four ways to boost your sales with your website
 date: 2016-12-29 00:00:00 Z
-layout: post
 author: Zach Dyer
 banner:
   src: updating-a-website.png
   alt: Websites promote you 24/7&#58; No employee will do that. - Paul Cookson
 publish: true
+layout: post
 ---
 
 With 2016 whizzing fast towards its end, the excitement in the air is almost palpable. Of course, we would want to bid the year a good farewell, and what better to start the new year than giving your business a boost in sales with your website.
