@@ -8,7 +8,7 @@ layout: default
     <div class="row">
         <div class="col-md-9">
 
-          {% assign blogs = site.posts | "post.category contains 'blog'" %}
+          {% assign blogs = site.posts | where_exp: "post", "post.category contains 'blog'" %}
           {% for post in blogs %}
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
