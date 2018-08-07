@@ -9,7 +9,8 @@ category: blog
     <div class="row">
         <div class="col-md-9">
 
-          {% for post in site.posts %}
+          {% assign blogs = site.posts | "post.category contains 'blog'" %}
+          {% for post in blogs %}
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
             <h2 class="section-heading">{{ post.title }}</h2>
