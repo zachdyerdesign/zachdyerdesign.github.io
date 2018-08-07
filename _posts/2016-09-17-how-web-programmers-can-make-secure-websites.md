@@ -1,12 +1,13 @@
 ---
 title: How web programmers can make secure websites
 date: 2016-09-17 00:00:00 Z
-layout: post
 author: Zach Dyer
 banner:
   src: gear-monitor.jpg
   alt: Monitor with gears being magnified with a magnifyer
 publish: true
+category: blog
+layout: post
 ---
 
 In my last post I talked about [why web programmers should ditch WordPress](/2016/09/16/why-web-programmers-should-ditch-wordpress.html). I went through some of my personal experiences with the system and the problems I've had with it. Most of the issues were related to security. If you don't know what the security issues are, read my last post and come back to this one.
