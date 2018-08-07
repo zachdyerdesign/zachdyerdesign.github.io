@@ -1,15 +1,24 @@
-# Site settings
+---
 title: Zach Dyer Design
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: zach.dyer@zachdyerdesign.com
-description: Zach Dyer Design LLC is a full service web design company located in Ozark, Missouri in the Carl Hefner Business Enterprise. We provide web design, branding design, web programming, domain and hosting services.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://zachdyerdesign.com" # the base hostname & protocol for your site
+description: Zach Dyer Design LLC is a full service web design company located in
+  Ozark, Missouri in the Carl Hefner Business Enterprise. We provide web design, branding
+  design, web programming, domain and hosting services.
+baseurl: ''
+url: http://zachdyerdesign.com
 twitter_username: zachdyer
-github_username:  zachdyerdesign
+github_username: zachdyerdesign
 linkedin_profile: zach-dyer-83389821
 facebook: Zach-Dyer-Design-175044499220188
-telephone: +1 417 501 5670
+telephone: "+1 417 501 5670"
 address: 1471 W South St, Ozark, MO 65721
-
 gems:
-  - jekyll-sitemap
+- jekyll-sitemap

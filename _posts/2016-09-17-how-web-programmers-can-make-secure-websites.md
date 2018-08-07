@@ -1,6 +1,7 @@
 ---
-layout: post
 title: How web programmers can make secure websites
+date: 2016-09-17 00:00:00 Z
+layout: post
 author: Zach Dyer
 banner:
   src: gear-monitor.jpg

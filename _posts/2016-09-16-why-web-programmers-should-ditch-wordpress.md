@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Why web programmers should ditch WordPress
+date: 2016-09-16 00:00:00 Z
+layout: post
 author: Zach Dyer
 banner:
   src: hacker.jpg

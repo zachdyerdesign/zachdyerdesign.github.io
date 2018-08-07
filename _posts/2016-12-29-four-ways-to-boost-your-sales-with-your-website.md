@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Four ways to boost your sales with your website
+date: 2016-12-29 00:00:00 Z
+layout: post
 author: Zach Dyer
 banner:
   src: updating-a-website.png
