@@ -1,11 +1,12 @@
 ---
 title: Why web programmers should ditch WordPress
 date: 2016-09-16 00:00:00 Z
-layout: post
 author: Zach Dyer
 banner:
   src: hacker.jpg
   alt: Hacker hacking a laptop with gloves and a magnifying glass
+category: blog
+layout: post
 ---
 
 WordPress is one of the most popular content management systems available for websites for many reasons. It is open sourced software and it is free to use for any personal or business purposes. It runs on cheap Linux based servers and quick and easy to install. It has a plugin for almost anything you could imagine.
