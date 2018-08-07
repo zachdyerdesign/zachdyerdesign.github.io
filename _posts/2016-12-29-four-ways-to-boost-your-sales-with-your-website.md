@@ -6,6 +6,7 @@ banner:
   src: updating-a-website.png
   alt: Websites promote you 24/7&#58; No employee will do that. - Paul Cookson
 publish: true
+category: blog
 layout: post
 ---
 
