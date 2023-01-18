@@ -1,47 +1,19 @@
----
 title: Zach Dyer Design
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 email: zach.dyer@zachdyerdesign.com
-description: Zach Dyer Design LLC is a full service web design company located in
-  Ozark, Missouri in the Carl Hefner Business Enterprise. We provide web design, branding
-  design, web programming, domain and hosting services.
-baseurl: 
-url: https://zachdyerdesign.com
-twitter_username: zachdyer
-github_username: zachdyerdesign
-linkedin_profile: zach-dyer-83389821
-facebook: Zach-Dyer-Design-175044499220188
-telephone: "+1 417 501 5670"
-address: Springfield, Missouri
-gems:
-- jekyll-sitemap
-home:
-  title: Affordable Websites for Small Businesses
-  subtitle: It's time to get serious about how your business looks online. We can
-    help!
-row1:
-  title: Custom Website Designs
-  content: Each project starts with a custom web design, uniquely designed to meet
-    the online needs of your business. Besides looking and working great on all browsers
-    and mobile devices, we make sure our sites convert more visitors into buyers by
-    using best web design practices.
-row2:
-  title: Fast, Easy Delivery
-  content: Most web design companies take months to create what only takes us weeks.
-    We just do things differently.
-  small: We are constantly working to improve our web design process. Using the most
-    advanced technology and a lean production model, we cut days off our website design
-    and development time so you can start building a better online presence sooner.
-row3:
-  title: Testimonials
-  content: '"Zach Dyer Design was prompt, professional, knowledgeable and the website
-    design was awesome!"'
-  client: John Lorenz
-  company: L & B Boring Services
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome to Zach Dyer Design, a passionate and skilled software development team with a knack for creating sleek, modern websites that prioritize both aesthetics and functionality.
+  We specialize in building lightweight, secure websites that load quickly and perform exceptionally well in search engine rankings. We have a strong understanding of the latest technologies and trends in web development, and are dedicated to staying up-to-date on the latest best practices in order to deliver the best possible product for our clients.
+  Whether you need a new website built from scratch, or an existing site in need of an update, Zach Dyer Design has the skills and expertise to bring your vision to life. So if you're looking for a tech-savvy professional who can create stunning, high-performing websites that stand out in a crowded online landscape, look no further than Zach Dyer Design.
+tagline: Transform your online presence with beautiful, fast, and secure websites crafted by Zach Dyer Design.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://zachdyerdesign.com" # the base hostname & protocol for your site, e.g. http://example.com
+paginate: 3
+paginate_path: "/blog/page:1"
+pagination_layout: blog-home
+tier: premium
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+    </head>
+    <body class="d-flex flex-column">
+        <main class="flex-shrink-0">
+            {% include nav.html %}
+            <!-- Page Content-->
+            <section class="py-5">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5">
+                        <div class="col-lg-3">
+                            <div class="d-flex align-items-center mt-lg-5 mb-4">
+                                <img class="img-fluid rounded-circle" src="/assets/images/dyerdevemblem.png" alt="{{page.title}}" width="50"/>
+                                <div class="ms-3">
+                                    <div class="fw-bold">{{page.author}}</div>
+                                    <div class="text-muted">{{page.category}}</div>
+                                </div>
+                            </div>
+                            {% include adsense.html %}
+                        </div>
+                        <div class="col-lg-9">
+                            <!-- Post content-->
+                            <article>
+                                <!-- Post header-->
+                                <header class="mb-4">
+                                    <!-- Post title-->
+                                    <h1 class="fw-bolder mb-1">{{page.title}}</h1>
+                                    <!-- Post meta content-->
+                                    <div class="text-muted fst-italic mb-2">{{page.date}}</div>
+                                    <!-- Post categories-->
+                                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">{{page.categories}}</a>
+                                </header>
+                                <!-- Preview image figure-->
+                                <figure class="mb-4"><img class="img-fluid rounded" src="{{page.image}}" alt="{{page.title}}" /></figure>
+                                <!-- Post content-->
+                                <section class="mb-5 fs-5">
+                                    {{page.content}}
+                                </section>
+                            </article>
+                            <!-- Comments section-->
+                            {% if page.comments %}
+                            <section>
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <!-- Comment form-->
+                                        <div id="disqus_thread"></div>
+                                        <script>
+                                            /**
+                                            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                                            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                                            /*
+                                            var disqus_config = function () {
+                                            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                                            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                                            };
+                                            */
+                                            (function() { // DON'T EDIT BELOW THIS LINE
+                                            var d = document, s = d.createElement('script');
+                                            s.src = 'https://https-dyerdev-com.disqus.com/embed.js';
+                                            s.setAttribute('data-timestamp', +new Date());
+                                            (d.head || d.body).appendChild(s);
+                                            })();
+                                        </script>
+                                        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                    </div>
+                                </div>
+                            </section>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        {% include footer.html %}
+    </body>
+</html>
